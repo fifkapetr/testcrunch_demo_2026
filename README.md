@@ -14,14 +14,16 @@ This is a demo Playwright project for TestCrunch 2026 conference. It includes AI
 npm install
 ```
 
-4. Create a `.env` file in the root of the project and add the following environment variable:
+4. Install Playwright MCP: https://github.com/microsoft/playwright-mcp
+
+5. Create a `.env` file in the root of the project and add the following environment variable:
 
 ```env
 APP_URL=http://localhost:5173/
 USER_PASSWORD=password123
 ```
 
-5. Run the tests:
+6. Run the tests:
 
 ```bash
 npx playwright test
@@ -30,6 +32,7 @@ npx playwright test
 ## AI Agents
 
 Custom AI agents are defined in `.github/agents/` and can be invoked from VS Code Copilot Chat.
+Some agents are designed to call another agent to perform specific tasks, such as exploring app via Playwright MCP or triaging test failures.
 
 ### Exploratory Tester
 
