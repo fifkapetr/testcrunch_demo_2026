@@ -1,0 +1,22 @@
+{
+  "login": {
+    "pageHeading": "Defect Containment Board",
+    "pageSubtitle": "Internal QA Portal",
+    "loginButton": "Access Containment System"
+  },
+  "dashboard": {
+    "pageHeading": "Dashboard"
+  },
+  "defectList": {
+    "pageHeading": "Defect List",
+    "reportDefectButton": "+ Report Defect",
+    "columnId": "ID",
+    "columnTitle": "Title",
+    "columnSeverity": "Severity",
+    "columnActions": "Actions"
+  },
+  "reportDefect": {
+    "pageHeading": "Report Defect",
+    "submitButton": "Submit Defect Report"
+  }
+}
