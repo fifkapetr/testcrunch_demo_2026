@@ -6,6 +6,14 @@ This is a demo Playwright project for TestCrunch 2026 conference. It includes AI
 
 ## Setup
 
+### Prerequisites
+
+- Node.js (version 16 or higher)
+- git
+- Visual Studio Code (optional, but recommended for using Copilot Chat)
+
+### Installation
+
 1. You need to install and run this repo (app under test) locally: https://github.com/fifkapetr/ai_test_auto_training_app
 2. Clone this repository and navigate to the project directory.
 3. Install the dependencies:
